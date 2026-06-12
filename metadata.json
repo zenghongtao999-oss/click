@@ -1,0 +1,6 @@
+{
+  "name": "Greeting Button",
+  "description": "A simple interactive button that displays a friendly greeting with an elegant design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
