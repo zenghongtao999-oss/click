@@ -786,10 +786,10 @@ export default function App() {
                         <div className="font-semibold text-slate-600">🛠️ 免安装/免命令行的一键极速部署（只要一分钟）：</div>
                         <div className="mt-1 font-semibold text-indigo-600">💡 推荐：使用 Netlify Drop 网页拖拽部署（国内畅通且安全免费）</div>
                         <div className="pl-3 border-l-2 border-indigo-200 space-y-1 my-1">
-                          <div>1. <strong>打开云端部署页面</strong>：在电脑浏览器打开 <a href="https://app.netlify.com/drop" target="_blank" rel="noreferrer" className="text-indigo-600 font-bold underline hover:text-indigo-700">app.netlify.com/drop</a>。</div>
+                          <div>1. <strong>打开云端部署页面</strong>：在电脑浏览器打开 <a href="https://app.netlify.com/drop" target="_blank" rel="noreferrer" className="text-indigo-650 font-bold underline hover:text-indigo-700">app.netlify.com/drop</a>。</div>
                           <div>2. <strong>导出我的项目包</strong>：在 AI Studio 顶栏的 Settings（⚙️ 设置 / 导出）或主菜单中点击 <strong>“Download ZIP”</strong>。下载后把它<strong>在电脑上解压出来</strong>。</div>
-                          <div>3. <strong>获取 AI 云端打包文件</strong>：解压出来的文件夹里，有一个名字叫 <code>dist_compiled_by_ai.zip</code> 的专用压缩包（这是 AI 在云端直接为您打包好的、100% 格式正确的网页部署包，您<strong>不需要</strong>在自己电脑安装任何运行环境或执行命令！）。</div>
-                          <div>4. <strong>拖入网页一键生成</strong>：直接把这个 <code>dist_compiled_by_ai.zip</code> 拖入到 Netlify 网页中间的大虚线框 <strong>"Drag and drop your site folder here"</strong> 中，等待 5 秒钟即部署成功！您会获得一个专属链接（形如 <code>xxx.netlify.app</code>），可以用手机微信畅享，永不屏蔽！</div>
+                          <div>3. <strong>定位打包好的网页文件夹</strong>：在解压出来的整个项目文件夹内，您会直接看到一个叫做 <strong><code>手机扫码访问专用文件夹</code></strong> 的普通子文件夹（这是 AI 已经在云端提前为您编译打包好、包含所有 index.html 网页和资源的独立网页文件夹，不要解压任何小压缩包，也不需要安装环境或运行任何命令！）。</div>
+                          <div>4. <strong>拖入该普通文件夹一键生成</strong>：直接用鼠标把这个完整的 <strong><code>手机扫码访问专用文件夹</code></strong> 拖拽到 Netlify 网页中间的大虚线框 <strong>"Drag and drop your site folder here"</strong> 中，系统会在 3 秒钟内识别、上传并为您生成一个专属的不屏蔽不闪退的 <code>xxxx.netlify.app</code> 专属网页网址！</div>
                         </div>
                         <div className="mt-1">5. 将生成的新专属网址复制并粘贴到上方输入框，再次扫码或复制链接即可完美触发所有点击、信封动画及弹窗交互！</div>
                       </div>
