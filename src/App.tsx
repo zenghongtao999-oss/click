@@ -783,11 +783,20 @@ export default function App() {
                       </p>
                     ) : (
                       <div className="text-[10px] text-slate-400 bg-white border border-slate-100 rounded-lg p-2.5 space-y-1">
-                        <div className="font-semibold text-slate-600">🛠️ 国内网络 100% 免翻极速部署（只要三步）：</div>
-                        <div>1. 在本网页所在的 <strong>AI Studio 顶部最右侧</strong>（或设置 ⚙️ 图标附近）找到并选择 <strong>“Export” / “Download ZIP”</strong> 导出完整的项目源码包。</div>
-                        <div>2. <strong>使用码云 Gitee Pages (推荐：国内不限速)</strong>：注册并登录 <a href="https://gitee.com" target="_blank" rel="noreferrer" className="text-emerald-600 font-bold underline hover:text-emerald-700">Gitee (码云)</a>，新建一个静态仓库，将 ZIP 源码解压并上传，开启「Gitee Pages」服务，即可一键获得国内微信无障碍急速链接！</div>
-                        <div>3. <strong>使用腾讯微程 / 阿里云 OSS</strong>：将 ZIP 解压出的静态网页文件（执行 <code>npm run build</code> 后产生的 <code>dist</code> 文件夹里的全部内容）上传至腾讯云 CloudBase 或阿里云 OSS 静态网站托管，100% 畅通支持微信直连。</div>
-                        <div>4. 将获得的新专属网址复制并粘贴到上方输入框，再次复制链接或渲染的贺卡图片二维码即为微信无墙的完美互动网页！</div>
+                        <div className="font-semibold text-slate-600">🛠️ 国内或微信无障碍免翻极速部署（二选一即可）：</div>
+                        <div className="mt-1 font-semibold text-indigo-600">方式一：最简单直接的网页拖拽极速部署（Netlify Drop）</div>
+                        <div className="pl-3 border-l-2 border-indigo-200 space-y-0.5 my-1">
+                          <div>1. 浏览器直接打开无障碍极速部署页面：<a href="https://app.netlify.com/drop" target="_blank" rel="noreferrer" className="text-indigo-600 font-bold underline hover:text-indigo-700">app.netlify.com/drop</a>（这是最出名的免注册/免配置静态部署神器）。</div>
+                          <div>2. 在 AI Studio 顶部右侧（Export 导出）菜单中下载 **Download ZIP**。</div>
+                          <div>3. 在本地解压该 ZIP 源码，随后在您的本地命令行中运行 <code>npm run build</code> 生成 <strong><code>dist</code> 文件夹</strong>，或直接将 <strong>dist 目录</strong>（内含 index.html 和静态资源）拖入到 Netlify 网页中间的虚线框 <strong>"Drag and drop your site folder here"</strong> 中，即可免费获得一个国内畅通无阻的 <code>.netlify.app</code> 专属网页网址！</div>
+                        </div>
+                        <div className="mt-2 font-semibold text-emerald-600">方式二：国内免翻且永久高速度服务（推荐：码云 Gitee Pages）</div>
+                        <div className="pl-3 border-l-2 border-emerald-200 space-y-0.5 my-1">
+                          <div>1. 注册并登录 <a href="https://gitee.com" target="_blank" rel="noreferrer" className="text-emerald-600 font-bold underline hover:text-emerald-700">Gitee (码云)</a> 官方网站。</div>
+                          <div>2. 新建一个公开静态仓库，将解压后的源码及编译产物直接拖拽上传。</div>
+                          <div>3. 开启「Gitee Pages」服务，点击部署即可一键秒开，完全无网络死角！</div>
+                        </div>
+                        <div className="mt-1">4. 将部署好的新网址粘贴到上方输入框，即可完全无视网络阻碍，随时随触完美支持任何点击、封套及弹窗微交互！</div>
                       </div>
                     )}
                   </div>
