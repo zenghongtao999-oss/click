@@ -783,20 +783,15 @@ export default function App() {
                       </p>
                     ) : (
                       <div className="text-[10px] text-slate-400 bg-white border border-slate-100 rounded-lg p-2.5 space-y-1">
-                        <div className="font-semibold text-slate-600">🛠️ 国内或微信无障碍免翻极速部署（二选一即可）：</div>
-                        <div className="mt-1 font-semibold text-indigo-600">方式一：最简单直接的网页拖拽极速部署（Netlify Drop）</div>
-                        <div className="pl-3 border-l-2 border-indigo-200 space-y-0.5 my-1">
-                          <div>1. 浏览器直接打开无障碍极速部署页面：<a href="https://app.netlify.com/drop" target="_blank" rel="noreferrer" className="text-indigo-600 font-bold underline hover:text-indigo-700">app.netlify.com/drop</a>（这是最出名的免注册/免配置静态部署神器）。</div>
-                          <div>2. 在 AI Studio 顶部右侧（Export 导出）菜单中下载 **Download ZIP**。</div>
-                          <div>3. 在本地解压该 ZIP 源码，随后在您的本地命令行中运行 <code>npm run build</code> 生成 <strong><code>dist</code> 文件夹</strong>，或直接将 <strong>dist 目录</strong>（内含 index.html 和静态资源）拖入到 Netlify 网页中间的虚线框 <strong>"Drag and drop your site folder here"</strong> 中，即可免费获得一个国内畅通无阻的 <code>.netlify.app</code> 专属网页网址！</div>
+                        <div className="font-semibold text-slate-600">🛠️ 免安装/免命令行的一键极速部署（只要一分钟）：</div>
+                        <div className="mt-1 font-semibold text-indigo-600">💡 推荐：使用 Netlify Drop 网页拖拽部署（国内畅通且安全免费）</div>
+                        <div className="pl-3 border-l-2 border-indigo-200 space-y-1 my-1">
+                          <div>1. <strong>打开云端部署页面</strong>：在电脑浏览器打开 <a href="https://app.netlify.com/drop" target="_blank" rel="noreferrer" className="text-indigo-600 font-bold underline hover:text-indigo-700">app.netlify.com/drop</a>。</div>
+                          <div>2. <strong>导出我的项目包</strong>：在 AI Studio 顶栏的 Settings（⚙️ 设置 / 导出）或主菜单中点击 <strong>“Download ZIP”</strong>。下载后把它<strong>在电脑上解压出来</strong>。</div>
+                          <div>3. <strong>获取 AI 云端打包文件</strong>：解压出来的文件夹里，有一个名字叫 <code>dist_compiled_by_ai.zip</code> 的专用压缩包（这是 AI 在云端直接为您打包好的、100% 格式正确的网页部署包，您<strong>不需要</strong>在自己电脑安装任何运行环境或执行命令！）。</div>
+                          <div>4. <strong>拖入网页一键生成</strong>：直接把这个 <code>dist_compiled_by_ai.zip</code> 拖入到 Netlify 网页中间的大虚线框 <strong>"Drag and drop your site folder here"</strong> 中，等待 5 秒钟即部署成功！您会获得一个专属链接（形如 <code>xxx.netlify.app</code>），可以用手机微信畅享，永不屏蔽！</div>
                         </div>
-                        <div className="mt-2 font-semibold text-emerald-600">方式二：国内免翻且永久高速度服务（推荐：码云 Gitee Pages）</div>
-                        <div className="pl-3 border-l-2 border-emerald-200 space-y-0.5 my-1">
-                          <div>1. 注册并登录 <a href="https://gitee.com" target="_blank" rel="noreferrer" className="text-emerald-600 font-bold underline hover:text-emerald-700">Gitee (码云)</a> 官方网站。</div>
-                          <div>2. 新建一个公开静态仓库，将解压后的源码及编译产物直接拖拽上传。</div>
-                          <div>3. 开启「Gitee Pages」服务，点击部署即可一键秒开，完全无网络死角！</div>
-                        </div>
-                        <div className="mt-1">4. 将部署好的新网址粘贴到上方输入框，即可完全无视网络阻碍，随时随触完美支持任何点击、封套及弹窗微交互！</div>
+                        <div className="mt-1">5. 将生成的新专属网址复制并粘贴到上方输入框，再次扫码或复制链接即可完美触发所有点击、信封动画及弹窗交互！</div>
                       </div>
                     )}
                   </div>
